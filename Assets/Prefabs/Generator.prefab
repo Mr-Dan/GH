@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2254187588227154144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2105616258479227867}
+  - component: {fileID: -2947132671896471788}
+  m_Layer: 0
+  m_Name: Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2105616258479227867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2254187588227154144}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2947132671896471788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2254187588227154144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74402d654a574d4408afd036fe267ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xNumberLenght: 8
+  yNumberHeight: 3
+  zNumberWidth: 3
+  wallAccessoriesPercentage: 100
+  firstFloorAccessoriesPercentage: 90
+  roofAccessoriesPercentage: 20
+  randomSeed: 2
+  brandmauer: 0
+  pickedObject: {fileID: 0}
+  usePickedObjectForSizes: 0
+  pickedObjectPosition: {fileID: 0}
+  usePickedObjectPosition: 0
+  foundationObjects:
+  - {fileID: 919132149155446097, guid: 06b16766b8ce6f548a228eb8ccbd7ab8, type: 3}
+  windowInWallsObjects:
+  - {fileID: 919132149155446097, guid: 55cba7cf9b126c54396f91e3169db24c, type: 3}
+  sideWallObjects:
+  - {fileID: 919132149155446097, guid: 186e52658ab84874b9c2a8336754413c, type: 3}
+  entrancewayObjects:
+  - {fileID: 919132149155446097, guid: 6a42681fd57185d498d0b45d22f1cced, type: 3}
+  windowInWallLastObjects:
+  - {fileID: 919132149155446097, guid: e7d59e48e3e96814f98104f1f8ebfe39, type: 3}
+  roofObjects:
+  - {fileID: 919132149155446097, guid: dd7f0bf80ec773f41889baa7d60a8274, type: 3}
+  roofSideWallObjects:
+  - {fileID: 919132149155446097, guid: b78e4d0795e48fe44a8c93185f222065, type: 3}
